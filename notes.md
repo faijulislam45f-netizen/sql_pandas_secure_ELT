@@ -1,4 +1,4 @@
-![Pipeline Architecture](asset/https://github.com/faijulislam45f-netizen/sql_pandas_secure_ELT/blob/f560aa764876708facfe21818f7890087ec932cf/pipeline_diagram%20(1).png)
+![Pipeline Architecture](asset/https://github.com/faijulislam45f-netizen/sql_pandas_secure_ELT/edit/main/notes.md#:~:text=pipeline_diagram%20(1).png)
 
 
 ## Dataset Source
