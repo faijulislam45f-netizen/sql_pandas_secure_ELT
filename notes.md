@@ -1,4 +1,4 @@
-![Pipeline Architecture](pipeline_diagram (1).png)
+![Pipeline Architecture](asset/pipeline_diagram (1).png)
 
 
 ## Dataset Source
