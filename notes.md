@@ -1,4 +1,4 @@
-![Pipeline Architecture](asset/https://github.com/faijulislam45f-netizen/sql_pandas_secure_ELT/edit/main/notes.md#:~:text=pipeline_diagram%20(1).png)
+![Pipeline Architecture](pipeline_diagram.png)
 
 
 ## Dataset Source
