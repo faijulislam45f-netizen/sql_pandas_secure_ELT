@@ -24,7 +24,7 @@ Ek end-to-end retail data analytics aur ETL pipeline project jise real-world bus
 
 ## 📈 Interactive EDA Dashboard Preview
  * **Full interactive experience
- *  
+ *  eda_dashboard.html
 <img src="./Screenshot 2026-10-26 7.42.23 PM.png" alt="Retail Sales & Target Analytics Dashboard" width="100%">
 
 ### 🔍 Key Business Insights:
