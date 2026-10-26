@@ -15,7 +15,7 @@ A production-ready retail data analytics and ETL pipeline built with **Python, P
 
 ## 📈 Interactive EDA Dashboard Preview
 
-> **Note:** GitHub does not render interactive HTML files natively. Below is a static preview of `eda_dashboard.html`. To experience full interactivity (hover specs, zoom, filters), download and open `eda_dashboard.html` in any browser.
+> **Note:** GitHub does not render interactive HTML files natively. Below is a static preview of the dashboard. To view or download the full interactive Plotly report (with hovers, zoom, and filters), check out the [`eda_dashboard.html`](./eda_dashboard.html) file directly in the repository.
 
 <img src="./Screenshot 2026-10-26 7.42.23 PM.png" alt="Retail Sales & Target Analytics Dashboard" width="100%">
 
