@@ -23,8 +23,8 @@ Ek end-to-end retail data analytics aur ETL pipeline project jise real-world bus
 ---
 
 ## 📈 Interactive EDA Dashboard Preview
-GitHub par interactive HTML files direct render nahi hoti hain, isliye niche dashboard ka static preview attached hai. Full interactive experience ke liye aap `eda_dashboard.html` file ko apne browser mein open kar sakte hain.
-
+ * **Full interactive experience
+ *  
 <img src="./Screenshot 2026-10-26 7.42.23 PM.png" alt="Retail Sales & Target Analytics Dashboard" width="100%">
 
 ### 🔍 Key Business Insights:
