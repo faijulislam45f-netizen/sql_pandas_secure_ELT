@@ -1,41 +1,49 @@
-# 🚀 Retail Sales & Target Analytics Pipeline (SQL, Pandas & Plotly)
+# 🚀 Retail Sales & Target Analytics Pipeline
 
-## 📌 Project Overview
-Ek end-to-end retail data analytics aur ETL pipeline project jise real-world business insights, profit margin optimization, aur sales target vs. actual gap analysis ke liye design kiya gaya hai. Is project mein raw sales data ko clean, process aur interactive visual dashboards ke zariye analyze kiya gaya hai.
-
----
-
-## 🛠️ Tech Stack & Tools
-* **Programming Language:** Python
-* **Data Processing & Analysis:** Pandas, NumPy
-* **Visualization:** Plotly Express (Interactive HTML Dashboards)
-* **Version Control:** Git & GitHub
-* **Database / Staging:** Relational Database (MariaDB/SQL integration ready)
+A production-ready retail data analytics and ETL pipeline built with **Python, Pandas, and Plotly**. This project demonstrates end-to-end data processing, key performance indicator (KPI) tracking, and automated interactive dashboard generation for sales target performance analysis.
 
 ---
 
-## 📊 Executive Summary & Core KPIs
+## 📊 Executive Summary & Key Metrics
+
 * **Total Revenue:** ₹4,31,502.00
 * **Total Profit:** ₹23,955.00
 * **Overall Profit Margin:** 5.55%
-* **Total Unique Orders:** 500 orders across 1,500 order line items
+* **Total Unique Orders:** 500 orders (1,500 line items)
 
 ---
 
 ## 📈 Interactive EDA Dashboard Preview
- * **Full interactive experience
- *  eda_dashboard.html
+
+> **Note:** GitHub does not render interactive HTML files natively. Below is a static preview of `eda_dashboard.html`. To experience full interactivity (hover specs, zoom, filters), download and open `eda_dashboard.html` in any browser.
+
 <img src="./Screenshot 2026-10-26 7.42.23 PM.png" alt="Retail Sales & Target Analytics Dashboard" width="100%">
 
-### 🔍 Key Business Insights:
-1. **Category Performance:** Electronics ne sabse zyada revenue generate kiya, jabki profit ke mamle mein Clothing category kaafi aage rahi. Furniture high revenue ke bawajood low profit margin par chal raha hai.
-2. **Regional Revenue Drivers:** Top performing states mein Madhya Pradesh aur Maharashtra sabse aage hain, jo total sales ka major share contribute karte hain.
-3. **Target vs. Actual Gap:** Monthly category-wise target comparison se clear insights milti hain ki kis mahine mein sales targets achieve hue aur kahan shortfall raha.
+### 🔍 Business Insights & Key Findings:
+1. **Category Performance:** **Electronics** leads in total revenue (₹1.65L), whereas **Clothing** generates the highest profit (₹11.16K). **Furniture** maintains high sales volume but suffers from compressed profit margins (1.81%).
+2. **Regional Drivers:** **Madhya Pradesh** (₹1.05L) and **Maharashtra** (₹95.3K) serve as the primary revenue engines, contributing to over 46% of total revenue.
+3. **Target vs. Actual Gap:** Sales performance against targets varies significantly by month and category, highlighting critical seasonal demand shifts and stock allocation requirements.
 
 ---
 
-## ⚙️ How to Run the Project Locally
-1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/your-username/sql_pandas_retail_pipeline.git](https://github.com/your-username/sql_pandas_retail_pipeline.git)
-   cd sql_pandas_retail_pipeline
+## 🛠️ Tech Stack & Dependencies
+
+* **Language:** Python 3.x
+* **Data Engineering & Analysis:** Pandas, NumPy
+* **Data Visualization:** Plotly Express, Plotly Graph Objects
+* **Version Control:** Git & GitHub
+
+---
+
+## 📁 Repository Structure
+
+```text
+├── data/
+│   ├── cleaned_orders.csv
+│   ├── cleaned_order_details.csv
+│   └── cleaned_sales_target.csv
+├── eda_dashboard.py         # Main script for data processing & dashboard generation
+├── eda_dashboard.html       # Standalone interactive Plotly HTML dashboard
+├── dashboard_preview.png    # Dashboard preview image for documentation
+├── requirements.txt         # Project dependencies
+└── README.md                # Project documentation
